@@ -1,0 +1,165 @@
+.container {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: 680px;
+    background-image: url("../assets/bckimg.png");
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.container h1 {
+    font-size: 65px;
+    margin-bottom: 50px;
+}
+
+.container span {
+    color: red
+}
+
+.quesBox {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    width: fit-content;
+    margin-left: 270px;
+    padding: 30px;
+    width: 830px;
+    border-radius: 30px 0px;
+}
+
+.quesBox h5 {
+    text-align: left;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding: 10px;
+}
+
+.quesBox h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex button {
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    margin: 40px 30px 10px 10px;
+    width: 250px;
+    padding: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.flex button:hover {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    font-weight: 500;
+}
+
+.btns-style button:first-child {
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    margin: 40px 20px 0px;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 750;
+}
+
+.btns-style button {
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: grey;
+    color: white;
+    border: 2px solid white;
+    margin: 40px 20px 0px;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 750;
+}
+
+
+.colorImg {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 5px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+.colorImg img {
+    width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        height: 760px;
+        background-size: 200%;
+        padding-bottom: 20px;
+        background-repeat: no-repeat;
+    }
+
+    .container h1 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+
+    .quesBox {
+        margin-left: 0px;
+        position: absolute;
+        left: 3%;
+        width: 300px;
+        border-radius: 30px;
+    }
+
+    .quesBox h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .flex{
+        display: block;
+    }
+
+    .flex button{
+        margin: 10px;
+        margin-left: -5px;
+    }
+
+    .btn-flex{
+        display: flex;
+    }
+
+    
+.colorImg{
+    width: 80px;
+    height: 40px;
+}
+
+.colorImg img{
+    width: 30px;
+    height: 30px;
+}
+
+}

@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.text {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: 680px;
+    background-image: url("../assets/bckimg.png");
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.text h1 {
+    font-size: 65px;
+    margin-bottom: 50px;
+}
+
+.text span {
+    color: red;
+}
+
+.text h4 {
+    font-size: 35px;
+}
+
+.text button {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 35px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 60px;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.text button:hover {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    padding: 14.5px;
+    font-style: italic;
+    font-weight: bolder;
+    font-weight: 700;
+}
+
+.text h5 {
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+.text h5 span {
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+        width: 100%;
+        height: 601px;
+        background-size: 200%;
+        background-repeat: no-repeat;
+    }
+
+    .text h1 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+
+    .text h4 {
+        font-size: 20px;
+    }
+
+    .text h5 {
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+}

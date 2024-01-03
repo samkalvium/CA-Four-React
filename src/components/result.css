@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: 680px;
+    background-image: url("../assets/bckimg.png");
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.main h1 {
+    font-size: 65px;
+}
+
+.main span {
+    color: red
+}
+
+.result {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    width: fit-content;
+    margin-left: 270px;
+    padding: 30px;
+    width: 830px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.result h2 {
+    font-size: 55px;
+    font-style: italic;
+}
+
+.result h5 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.result button {
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    margin: 40px 30px 10px 10px;
+    width: 250px;
+    padding: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.result button:hover{
+    background-color: white;
+    border: 2px solid red;
+    color:  red;
+    font-weight: 700;
+} 
+
+
+@media only screen and (max-width: 600px){
+    .main{
+        width: 100%;
+        height: 601px;
+        background-size: 200%;
+        padding-bottom: 20px;
+        background-repeat: no-repeat;
+    }
+
+    .main h1 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+
+    .result {
+        margin-left: 0px;
+        position: absolute;
+        left: 3%;
+        width: 300px;
+        border-radius: 30px;
+    }
+
+    .result h2 {
+        font-size: 40px;
+        font-style: italic;
+    }
+
+    .result button{
+        margin-left: 0px;
+    }
+}
